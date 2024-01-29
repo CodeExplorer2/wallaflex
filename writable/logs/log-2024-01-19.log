@@ -1,0 +1,12 @@
+INFO - 2024-01-19 11:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-19 11:34:34 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 32.
+ 1 APPPATH\Views\templates\header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codeingter_prueba\\app\\Views\\templates\\header.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeingter_prueba\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\inicio.php(13): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

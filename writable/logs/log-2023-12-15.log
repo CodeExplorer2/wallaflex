@@ -1,0 +1,9 @@
+CRITICAL - 2023-12-15 07:52:15 --> Invalid file: "form_precios.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_precios.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form_precios', [], true)
+ 3 APPPATH\Controllers\Usuarios.php(9): view('form_precios')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
