@@ -1,6 +1,6 @@
 # CodeIgniter 4 Framework
 
-## What is CodeIgniter?
+## Este es mi trabajo con CodeIgter de una tienda virtual que te permite selccio ar articulos que para tu dicha compra
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
 More information can be found at the [official site](https://codeigniter.com).
